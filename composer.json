@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Dhii\\Parser\\": "src"
+            "Dhii\\Parser\\Tokenizer\\": "src"
         }
     },
     "scripts": {
