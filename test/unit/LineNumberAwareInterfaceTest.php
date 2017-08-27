@@ -17,7 +17,7 @@ class LineNumberAwareInterfaceTest extends TestCase
      *
      * @since [*next-version*]
      */
-    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Parser\\Tokenizer\\LineNumberAwareInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\Parser\Tokenizer\LineNumberAwareInterface';
 
     /**
      * Creates a new instance of the test subject.

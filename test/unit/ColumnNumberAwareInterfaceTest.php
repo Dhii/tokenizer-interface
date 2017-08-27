@@ -17,7 +17,7 @@ class ColumnNumberAwareInterfaceTest extends TestCase
      *
      * @since [*next-version*]
      */
-    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Parser\\Tokenizer\\ColumnNumberAwareInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\Parser\Tokenizer\ColumnNumberAwareInterface';
 
     /**
      * Creates a new instance of the test subject.

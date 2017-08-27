@@ -17,7 +17,7 @@ class TokenizerAwareInterfaceTest extends TestCase
      *
      * @since [*next-version*]
      */
-    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Parser\\Tokenizer\\TokenizerAwareInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\Parser\Tokenizer\TokenizerAwareInterface';
 
     /**
      * Creates a new instance of the test subject.
