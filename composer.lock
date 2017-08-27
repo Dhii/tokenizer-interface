@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "52d0810f165f47fe68aff828b29bfbff",
+    "content-hash": "9cd9fbd981adcab1ecc0cab8fc43d21e",
     "packages": [
         {
             "name": "dhii/data-container-interface",
@@ -179,6 +179,49 @@
             ],
             "description": "An interface for objects that can have a path retrieved.",
             "time": "2017-07-25T12:20:22+00:00"
+        },
+        {
+            "name": "dhii/exception-interface",
+            "version": "dev-release/0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/exception-interface.git",
+                "reference": "265a5fc902bdbeefb0973bf367e2c730da2b8854"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/exception-interface/zipball/265a5fc902bdbeefb0973bf367e2c730da2b8854",
+                "reference": "265a5fc902bdbeefb0973bf367e2c730da2b8854",
+                "shasum": ""
+            },
+            "require": {
+                "dhii/stringable-interface": "^0.1",
+                "php": "^5.3 | ^7.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "<=0.3.2",
+                "dhii/php-cs-fixer-config": "dev-php-5.3",
+                "phpunit/phpunit": "^4.8",
+                "ptrofimov/xpmock": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Exception\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii Team",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "description": "Interfaces for most common exceptions",
+            "time": "2017-08-22 09:48:15"
         },
         {
             "name": "dhii/iterator-interface",
@@ -2331,6 +2374,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "dhii/iterator-interface": 20,
+        "dhii/exception-interface": 20,
         "dhii/php-cs-fixer-config": 20
     },
     "prefer-stable": true,
