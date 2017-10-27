@@ -3,7 +3,7 @@
 namespace Dhii\Parser\Tokenizer;
 
 use Dhii\Data\Container\ContainerInterface;
-use Dhii\Data\KeyAwareInterface;
+use Dhii\Data\KeyValueAwareInterface;
 
 /**
  * Represents a token.
@@ -14,9 +14,17 @@ use Dhii\Data\KeyAwareInterface;
  * @since [*next-version*]
  */
 interface TokenInterface extends
-        KeyAwareInterface,
+        KeyValueAwareInterface,
         ContainerInterface,
         LineNumberAwareInterface,
         ColumnNumberAwareInterface
 {
+    /**
+     * {@inheritdoc}
+     *
+     * @since [*next-version*]
+     *
+     * @return string The token image.
+     */
+    public function getValue();
 }
