@@ -30,6 +30,7 @@ class TokenInterfaceTest extends TestCase
     {
         $mock = $this->mock(static::TEST_SUBJECT_CLASSNAME)
                 ->getKey()
+                ->getValue()
                 // ColumnNumberAwareInterface
                 ->getColumnNumber()
                 // LineNumberAwareInterface
@@ -56,6 +57,6 @@ class TokenInterfaceTest extends TestCase
         $this->assertInstanceOf('Dhii\Data\Container\ContainerInterface', $subject, 'Subject does not implement required interface');
         $this->assertInstanceOf('Dhii\Parser\Tokenizer\LineNumberAwareInterface', $subject, 'Subject does not implement required interface');
         $this->assertInstanceOf('Dhii\Parser\Tokenizer\ColumnNumberAwareInterface', $subject, 'Subject does not implement required interface');
-        $this->assertInstanceOf('Dhii\Data\KeyAwareInterface', $subject, 'Subject does not implement required interface');
+        $this->assertInstanceOf('Dhii\Data\KeyValueAwareInterface', $subject, 'Subject does not implement required interface');
     }
 }
