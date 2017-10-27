@@ -14,7 +14,7 @@ interface ColumnNumberAwareInterface
      *
      * @since [*next-version*]
      *
-     * @return int The column number.
+     * @return int The 1-based column number.
      */
     public function getColumnNumber();
 }
