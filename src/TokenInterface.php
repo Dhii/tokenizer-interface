@@ -3,6 +3,7 @@
 namespace Dhii\Parser\Tokenizer;
 
 use Dhii\Data\Container\ContainerInterface;
+use Dhii\Data\KeyAwareInterface;
 
 /**
  * Represents a token.
@@ -13,6 +14,7 @@ use Dhii\Data\Container\ContainerInterface;
  * @since [*next-version*]
  */
 interface TokenInterface extends
+        KeyAwareInterface,
         ContainerInterface,
         LineNumberAwareInterface,
         ColumnNumberAwareInterface
