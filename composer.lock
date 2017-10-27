@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a29e128b19aa0916b73987877df6580",
+    "content-hash": "0626dfaa69e783a477bac36ccda108b3",
     "packages": [
         {
             "name": "dhii/data-container-interface",
@@ -182,16 +182,16 @@
         },
         {
             "name": "dhii/exception-interface",
-            "version": "dev-release/0.1",
+            "version": "v0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/exception-interface.git",
-                "reference": "09cfe5c87fe5498e96ab98b718bc9dee0ddeb75f"
+                "reference": "fe64b30f67830474683357f77dc4a097bf84767e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/exception-interface/zipball/09cfe5c87fe5498e96ab98b718bc9dee0ddeb75f",
-                "reference": "09cfe5c87fe5498e96ab98b718bc9dee0ddeb75f",
+                "url": "https://api.github.com/repos/Dhii/exception-interface/zipball/fe64b30f67830474683357f77dc4a097bf84767e",
+                "reference": "fe64b30f67830474683357f77dc4a097bf84767e",
                 "shasum": ""
             },
             "require": {
@@ -221,7 +221,7 @@
                 }
             ],
             "description": "Interfaces for most common exceptions",
-            "time": "2017-09-01 16:26:48"
+            "time": "2017-09-01T18:00:26+00:00"
         },
         {
             "name": "dhii/iterator-interface",
@@ -2373,7 +2373,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "dhii/iterator-interface": 20,
-        "dhii/exception-interface": 20,
         "dhii/php-cs-fixer-config": 20
     },
     "prefer-stable": true,

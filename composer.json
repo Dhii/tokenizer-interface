@@ -15,7 +15,7 @@
         "php": "^5.3 | ^7.0",
         "dhii/iterator-interface": "dev-release/0.1",
         "dhii/data-container-interface": "^0.1",
-        "dhii/exception-interface": "dev-release/0.1",
+        "dhii/exception-interface": "^0.1",
         "dhii/data-key-value-aware-interface": "^0.1"
     },
     "require-dev": {
